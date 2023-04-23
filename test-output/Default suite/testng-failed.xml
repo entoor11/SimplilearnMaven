@@ -5,10 +5,11 @@
     <classes>
       <class name="com.testcases.LoginTestCase">
         <methods>
-          <include name="test2"/>
-          <include name="test1"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="test4" invocation-numbers="0"/>
+          <include name="TearDown"/>
+          <include name="ReportClean"/>
+          <include name="SetUp"/>
+          <include name="ReportSetUp"/>
         </methods>
       </class> <!-- com.testcases.LoginTestCase -->
     </classes>
