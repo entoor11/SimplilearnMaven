@@ -15,7 +15,7 @@ import com.pages.LoginPage;
 
 public class LoginTestCase extends BaseClass {
 
-/*	@Test
+	@Test(priority = 1)
 	public void test1() {
 
 		LoginPage login = new LoginPage(driver);
@@ -30,17 +30,17 @@ public class LoginTestCase extends BaseClass {
 
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void test2() {
 
 		LoginPage login = new LoginPage(driver);
 		login.LoginFunction("pqr@xyz.com", "Abc@1234");
 
 	}
-*/
+
 	
 	//Method name test4 should be same as test4 in excel data
-	@Test
+	@Test(priority = 3)
 	public void test4(Method method) throws FilloException {
 
 		LoginPage login = new LoginPage(driver);
@@ -55,5 +55,7 @@ public class LoginTestCase extends BaseClass {
 		login.LoginFunction(UserName, Password);
 
 	}
+	
+	
 
 }
